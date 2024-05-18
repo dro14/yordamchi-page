@@ -1006,7 +1006,7 @@ section {
 .pricing img {
   height: 150px;
   padding: 30px 40px;
-  border-radius: 150px;
+  border-radius: 75px;
 }
 
 .pricing ul {
