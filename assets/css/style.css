@@ -510,6 +510,31 @@ section {
   transform: translateX(5px);
 }
 
+.hero .btn-watch-video {
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 16px;
+  transition: 0.5s;
+  color: var(--default-color);
+  font-weight: 600;
+}
+
+.hero .btn-watch-video i {
+  color: #4154f1;
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover {
+  color: #4154f1;
+}
+
+.hero .btn-watch-video:hover i {
+  color: color-mix(in srgb, #4154f1, transparent 15%);
+}
+
 .hero .hero-img {
   text-align: right;
 }
