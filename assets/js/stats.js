@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .getElementById("total-active-users")
       .setAttribute("data-purecounter-end", data.values[0][0]);
     document
-      .getElementById("daily-active-users")
+      .getElementById("monthly-active-users")
       .setAttribute("data-purecounter-end", data.values[0][1]);
     document
       .getElementById("total-messages")
